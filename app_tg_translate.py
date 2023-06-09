@@ -12,7 +12,7 @@ from translate import Translator
 logging.basicConfig(level=logging.INFO)
 
 # Get the OpenAI API key
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'YOUR_KEY'
 openai_api_key = os.environ["OPENAI_API_KEY"]
 if not openai_api_key:
     raise ValueError("OPENAI_API_KEY environment variable is not set")
